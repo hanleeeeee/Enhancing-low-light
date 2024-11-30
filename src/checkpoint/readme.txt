@@ -1,0 +1,1 @@
+You can download model in this url: https://drive.google.com/file/d/1etTZR4NgigdjS8gZXzcTydFCei_O5ArL/view?usp=sharing
