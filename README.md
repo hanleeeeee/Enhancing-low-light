@@ -47,7 +47,7 @@ result: for storing images from test.py
 Start by cloning the project on your machine
 
 ```
-git clone 
+git clone https://github.com/hanleeeeee/Enhancing-low-light.git
 ```
 You will need a recent version of Python 3.8 with multiple dependencies :
 
