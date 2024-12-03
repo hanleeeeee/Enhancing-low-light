@@ -120,7 +120,7 @@ C. Wei, W. Wang, W. Yang, and J. Liu, "RetinexNet: Deep Retinex Decomposition fo
 I executed CycleGAN training both in an unpaired and paired sequential manner, enabling extensive learning to generate NIR images from general RGB images. Subsequently, I created a sharp image by fusing the generated fake NIR image with the real visible image. The key algorithms used in this process include alpha blending, gamma correction, CLAHE, and color compensation.
 
 ## 6 Issues and Contributions
-### Issues:
+### 1).Issues:
 
 #### Data Quality and Variability:
 One of the challenges encountered during the project was the variability in the quality of input data. The performance of the algorithms, particularly in generating NIR images from RGB inputs, was sometimes affected by noise or inconsistencies in the data. Future work could involve using more controlled datasets or enhancing the data preprocessing pipeline to minimize such issues.
@@ -131,7 +131,7 @@ The training of CycleGAN on large datasets, especially when running in a paired 
 #### Fusion Artifacts:
 When blending the generated fake NIR images with the real visible images, there were occasional artifacts that impacted the image quality. The fusion process, although successful in many cases, sometimes resulted in color inconsistencies or visible seams in the final image. Further refinement of the blending techniques, such as enhancing the alpha blending process or experimenting with different fusion algorithms, could address this issue.
 
-### Contributions:
+### 2).Contributions:
 
 #### Innovative Approach for NIR-Visible Fusion:
 The primary contribution of this project lies in the innovative use of CycleGAN for generating NIR images from RGB inputs, followed by a novel fusion process with real visible images to enhance image clarity. This method provides a new pathway for improving image quality in challenging environments, such as low-light or infrared imaging.
